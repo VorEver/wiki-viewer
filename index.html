@@ -1,0 +1,39 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container text-center" id="main">
+  	<div id="title" class="text-center">
+    	<h1>Wikipedia Viewer</h1>
+			<p>written by j-mag guthrie</p>
+	  </div>
+
+  	<div id="input_text" class="text-center">
+    	<input type="text" id="input_field" placeholder="&nbsp;Enter search value" value=""></div>
+  	<div id="submit_button" class="text-center">
+    	<button type="button" class="myButton btn" onclick="loadSearchList()">Display as List</button>
+    	<button type="button" class="myButton btn" onclick="loadSearchGrid()">Display as Grid</button>
+    	<form class="text-center">
+    		<button type="submit" formaction="https://en.wikipedia.org/wiki/Special:Random" formtarget="_blank" formmethod="post" name="wikipedia" id="random_quote"  class="btn myButton">Load a random page</button>
+    	</form>
+  	</div>
+	</div>
+	<div id="theBox" class="container text-center">
+  	<div class="stuff"></div>
+  	<div class="stuff"></div>
+	  <div class="stuff"></div>
+  	<div class="stuff"></div>
+ 	 	<div class="stuff"></div>
+  	<div class="stuff"></div>
+  	<div class="stuff"></div>
+  	<div class="stuff"></div>
+  	<div class="stuff"></div>
+  	<div class="stuff"></div>
+	</div>
+</body>
